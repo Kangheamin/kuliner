@@ -354,7 +354,6 @@ a {
   vertical-align: top;
   width: 360px;
   height: 360px;
-  background-color: #aff;
   background-size: cover;
   background-position: 50% 50%;
   font-size: 16px;
@@ -430,7 +429,6 @@ a {
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
-  background-color: rgb(125, 201, 201);
 }
 #dishes .wrap {
   width: 1160px;
@@ -512,4 +510,285 @@ a {
   text-align: center;
   padding-bottom: 60px;
   padding-top: 20px;
+}
+
+#service {
+  background-color: #ededed;
+}
+#service .wrap {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+#service .wrap .title {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#service .wrap .title h2 {
+  font-size: 54px;
+  line-height: 72px;
+  color: #555;
+  padding-bottom: 20px;
+}
+#service .wrap .title p {
+  font-size: 16px;
+  color: #555;
+  text-transform: uppercase;
+}
+#service .wrap .content {
+  font-size: 0;
+}
+#service .wrap .content > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  height: 360px;
+  border-radius: 8px;
+  background-color: #fee;
+  margin: 0 10px;
+  padding: 40px;
+  font-size: 16px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+#service .wrap .content > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #f99;
+}
+
+#service .wrap .content > div .img_part {
+  padding-top: 40px;
+}
+#service .wrap .content > div .txt_part {
+}
+#service .wrap .content > div .txt_part h3 {
+  padding: 20px 0;
+  font-size: 24px;
+  color: #555;
+  text-transform: uppercase;
+}
+#service .wrap .content > div .txt_part p {
+  font-size: 16px;
+  color: #555;
+}
+#service .wrap .arrow_space {
+  padding: 60px 0;
+}
+
+#offer {
+  width: 100%;
+  height: 460px;
+  margin: 0 auto;
+  background-image: url(../img/6.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+#offer .dark {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+#offer .dark .content_center {
+  width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#offer .dark .content_center h2 {
+  padding: 20px;
+  font-size: 54px;
+  line-height: 72px;
+}
+
+#offer .dark .content_center p {
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+#offer .dark .content_center .sendBox {
+  background-color: white;
+  width: 740px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #f90;
+  display: inline-block;
+  font-size: 0;
+}
+
+#offer .dark .content_center .sendBox input {
+  vertical-align: top;
+  width: calc(100% - 60px);
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 0 10px;
+}
+#offer .dark .content_center .sendBox button {
+  height: 100%;
+  width: 60px;
+  vertical-align: top;
+  background-color: transparent;
+  color: #f60;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 20px;
+  outline-color: #f60;
+}
+
+/*상단으로 이동*/
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+#topBtn a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #f60;
+  color: white;
+  border-radius: 4px;
+}
+
+/*#register part*/
+#register {
+  width: 100%;
+  height: auto;
+  background-color: #ededed;
+}
+#register .wrap {
+  width: 1160px;
+  height: auto;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 0;
+}
+#register .wrap .left {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+  padding: 20px;
+}
+#register .wrap .left #map_g {
+  height: 100%; /*360px*/
+}
+
+#register .wrap .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+  padding: 20px;
+}
+#register .wrap .right .title {
+  padding: 20px 0;
+  text-align: center;
+}
+#register .wrap .right .title h2 {
+  font-size: 54px;
+  line-height: 72px;
+  color: #555;
+}
+#register .wrap .right .cont {
+}
+#register .wrap .right .cont .input_line {
+  padding-bottom: 8px;
+}
+#register .wrap .right .cont .input_line input {
+  width: 100%;
+  height: 35px;
+  padding: 0 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  outline-color: #f60;
+}
+#register .wrap .right .cont input[type="checkbox"] {
+  height: 12px;
+}
+#register .wrap .right .cont span {
+  font-size: 16px;
+  color: #555;
+}
+
+#register .wrap .right .cont .btn {
+  text-align: right;
+}
+#register .wrap .right .cont .btn input {
+  width: 240px;
+  height: 41px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #f60;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#register .wrap .right .cont .btn input:hover {
+  background-color: #d40;
+}
+/*#footer part*/
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  text-align: center;
+}
+#footer .wrap {
+  width: 1160px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+#footer .wrap .sns {
+}
+#footer .wrap .sns ul {
+  font-size: 0;
+}
+#footer .wrap .sns ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#footer .wrap .sns ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  line-height: 38px;
+  border-radius: 50%;
+}
+#footer .wrap .sns ul li:hover a {
+  color: #f60;
+  border: 1px solid #f60;
+}
+#footer .wrap .f_logo {
+  padding: 10px 0;
+  font-size: 0;
+}
+#footer .wrap .f_logo img {
+}
+
+#footer .wrap p {
+  font-size: 14px;
+  padding: 14px 0;
+  color: #fff;
 }
